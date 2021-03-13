@@ -1,4 +1,5 @@
-# Look at the last file. That is, Time_Series_Fictional_Data.md as it is a more visually appealing.
+# Look at the last file. That is, Time_Series_Fictional_Data.md \\
+as it is a more visually appealing.
 
 ## This is some basic time series analysis done in R with fake data.
 
