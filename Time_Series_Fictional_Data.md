@@ -33,11 +33,11 @@ setwd("C:/Users/wbras/OneDrive/Desktop/GitHub/Time_Series_Fictional_Data_R")
 ### Load Necessary Packages
 
 ``` r
-if (!require(tidyverse)) install.packages(c('tidyverse',
-                                            'tsibble',
-                                            'gridExtra',
-                                            'feasts',
-                                            'pacman'))
+if (!require(tidyverse)) install.packages('tidyverse')
+if (!require(tsibble)) install.packages('tsibble')
+if (!require(gridExtra)) install.packages('gridExtra')
+if (!require(feasts)) install.packages('feasts')
+if (!require(pacman)) install.packages('pacman')
 
 pacman::p_load(tidyverse, tsibble)
 ```
